@@ -1,0 +1,11 @@
+.Price{
+    background-color: yellow;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+
+}
+.Price p {
+  margin:0;
+ 
+
+}

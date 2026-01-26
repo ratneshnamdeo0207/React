@@ -5,7 +5,7 @@ export default function LikeButton()
    
     function Liked()
     {
-        isLiked ? setisLiked(false) : setisLiked(true)
+        setisLiked(!isLiked) 
         console.log(isLiked)
         console.log("Liked")
     }

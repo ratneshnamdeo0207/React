@@ -13,6 +13,7 @@ export default function Comments()
     let handleNewComment=(newComment)=>{
         console.log(newComment)
         setComments([...Comments, newComment])
+        
     }
 
     return (
